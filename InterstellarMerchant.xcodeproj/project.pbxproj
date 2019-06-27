@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B165DD6224E1BF500838E54 /* GalacticDepotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B165DD5224E1BF500838E54 /* GalacticDepotViewController.swift */; };
+		2B165DD8224E1DEE00838E54 /* BuyShipCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B165DD7224E1DEE00838E54 /* BuyShipCollectionViewCell.swift */; };
+		2B21CAE8224C6ECB0023348B /* GameTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B21CAE7224C6ECB0023348B /* GameTabBarController.swift */; };
+		2B234A7722290E70000F2F98 /* Economy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B234A7622290E70000F2F98 /* Economy.swift */; };
+		2B234A7922291023000F2F98 /* MarketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B234A7822291023000F2F98 /* MarketItem.swift */; };
+		2B234A7B2229169C000F2F98 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B234A7A2229169C000F2F98 /* Inventory.swift */; };
+		2B2B91E72218000700F98B35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B91E62218000700F98B35 /* AppDelegate.swift */; };
+		2B2B91E92218000700F98B35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B91E82218000700F98B35 /* ViewController.swift */; };
+		2B2B91EC2218000700F98B35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2B91EA2218000700F98B35 /* Main.storyboard */; };
+		2B2B91EE2218000900F98B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2B91ED2218000900F98B35 /* Assets.xcassets */; };
+		2B2B91F12218000900F98B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2B91EF2218000900F98B35 /* LaunchScreen.storyboard */; };
+		2B339464223D113200665103 /* PlayerSellItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B339463223D113200665103 /* PlayerSellItemTableViewCell.swift */; };
+		2B339468223E2FBD00665103 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B339467223E2FBD00665103 /* Trip.swift */; };
+		2B33946A223E391600665103 /* TravelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B339469223E391600665103 /* TravelController.swift */; };
+		2B33946C223EED9300665103 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B33946B223EED9300665103 /* ProfileViewController.swift */; };
+		2B33946F2240E39D00665103 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B33946D2240E39D00665103 /* Model.xcdatamodeld */; };
+		2B33949422410CEA00665103 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B33949322410CEA00665103 /* GameController.swift */; };
+		2B4CC6E02229ED84001A0E91 /* SpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CC6DF2229ED84001A0E91 /* SpaceViewController.swift */; };
+		2B4CC6E22229EEDD001A0E91 /* PlanetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CC6E12229EEDD001A0E91 /* PlanetCell.swift */; };
+		2B72117D2221FE0100325AA7 /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B72117C2221FE0100325AA7 /* Difficulty.swift */; };
+		2B72117F2221FE9700325AA7 /* GameConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B72117E2221FE9700325AA7 /* GameConfig.swift */; };
+		2B7211812221FF3600325AA7 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7211802221FF3600325AA7 /* Ship.swift */; };
+		2B7D63B922299E26004393D6 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D63B822299E26004393D6 /* Player.swift */; };
+		2B9C89942224A68600679FFC /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C89932224A68600679FFC /* Planet.swift */; };
+		2B9C89972224A88F00679FFC /* Planet Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C89962224A88F00679FFC /* Planet Attributes.swift */; };
+		2B9C89992224AD9C00679FFC /* EnterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C89982224AD9C00679FFC /* EnterDetailsViewController.swift */; };
+		2B9C899B2224BCC800679FFC /* ConfirmDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C899A2224BCC800679FFC /* ConfirmDetailsViewController.swift */; };
+		2B9C899D2227553800679FFC /* TravelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C899C2227553800679FFC /* TravelEntity.swift */; };
+		2B9C899F2227585400679FFC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C899E2227585400679FFC /* Location.swift */; };
+		2B9C89A122275F8700679FFC /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C89A022275F8700679FFC /* Market.swift */; };
+		2B9C89A3222760D100679FFC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C89A2222760D100679FFC /* Order.swift */; };
+		2B9C89A52227617900679FFC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C89A42227617900679FFC /* Item.swift */; };
+		2B9C89A72228740100679FFC /* Universe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C89A62228740100679FFC /* Universe.swift */; };
+		2B9C89A92228752E00679FFC /* SolarSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9C89A82228752E00679FFC /* SolarSystem.swift */; };
+		2BBF11AC22306375005AA76F /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF11AB22306375005AA76F /* PlanetViewController.swift */; };
+		2BBF11AE2230666E005AA76F /* MarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF11AD2230666E005AA76F /* MarketTableViewCell.swift */; };
+		2BBF11B022307390005AA76F /* PlanetEconomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF11AF22307390005AA76F /* PlanetEconomy.swift */; };
+		2BBFE6B022324B6C00AE6C56 /* WarpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFE6AF22324B6C00AE6C56 /* WarpViewController.swift */; };
+		2BBFE6B222324D4900AE6C56 /* SolarSystemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFE6B122324D4900AE6C56 /* SolarSystemTableViewCell.swift */; };
+		2BD7F4BE224B616C00197E78 /* PlayerInventoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7F4BD224B616C00197E78 /* PlayerInventoryTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B165DD5224E1BF500838E54 /* GalacticDepotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalacticDepotViewController.swift; sourceTree = "<group>"; };
+		2B165DD7224E1DEE00838E54 /* BuyShipCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyShipCollectionViewCell.swift; sourceTree = "<group>"; };
+		2B21CAE7224C6ECB0023348B /* GameTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTabBarController.swift; sourceTree = "<group>"; };
+		2B234A7622290E70000F2F98 /* Economy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Economy.swift; sourceTree = "<group>"; };
+		2B234A7822291023000F2F98 /* MarketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketItem.swift; sourceTree = "<group>"; };
+		2B234A7A2229169C000F2F98 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		2B2B91E32218000700F98B35 /* InterstellarMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterstellarMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2B91E62218000700F98B35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B2B91E82218000700F98B35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B2B91EB2218000700F98B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B2B91ED2218000900F98B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B2B91F02218000900F98B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B2B91F22218000900F98B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B339463223D113200665103 /* PlayerSellItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSellItemTableViewCell.swift; sourceTree = "<group>"; };
+		2B339467223E2FBD00665103 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		2B339469223E391600665103 /* TravelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelController.swift; sourceTree = "<group>"; };
+		2B33946B223EED9300665103 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2B33946E2240E39D00665103 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2B33949322410CEA00665103 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		2B4CC6DF2229ED84001A0E91 /* SpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceViewController.swift; sourceTree = "<group>"; };
+		2B4CC6E12229EEDD001A0E91 /* PlanetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCell.swift; sourceTree = "<group>"; };
+		2B72117C2221FE0100325AA7 /* Difficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
+		2B72117E2221FE9700325AA7 /* GameConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfig.swift; sourceTree = "<group>"; };
+		2B7211802221FF3600325AA7 /* Ship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		2B7D63B822299E26004393D6 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../Universe/Player.swift; sourceTree = "<group>"; };
+		2B9C89932224A68600679FFC /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		2B9C89962224A88F00679FFC /* Planet Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Planet Attributes.swift"; sourceTree = "<group>"; };
+		2B9C89982224AD9C00679FFC /* EnterDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterDetailsViewController.swift; sourceTree = "<group>"; };
+		2B9C899A2224BCC800679FFC /* ConfirmDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDetailsViewController.swift; sourceTree = "<group>"; };
+		2B9C899C2227553800679FFC /* TravelEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelEntity.swift; sourceTree = "<group>"; };
+		2B9C899E2227585400679FFC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2B9C89A022275F8700679FFC /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		2B9C89A2222760D100679FFC /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2B9C89A42227617900679FFC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2B9C89A62228740100679FFC /* Universe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Universe.swift; sourceTree = "<group>"; };
+		2B9C89A82228752E00679FFC /* SolarSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystem.swift; sourceTree = "<group>"; };
+		2BBF11AB22306375005AA76F /* PlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewController.swift; sourceTree = "<group>"; };
+		2BBF11AD2230666E005AA76F /* MarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTableViewCell.swift; sourceTree = "<group>"; };
+		2BBF11AF22307390005AA76F /* PlanetEconomy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetEconomy.swift; sourceTree = "<group>"; };
+		2BBFE6AF22324B6C00AE6C56 /* WarpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarpViewController.swift; sourceTree = "<group>"; };
+		2BBFE6B122324D4900AE6C56 /* SolarSystemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemTableViewCell.swift; sourceTree = "<group>"; };
+		2BD7F4BD224B616C00197E78 /* PlayerInventoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInventoryTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B2B91E02218000700F98B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2B91DA2218000700F98B35 = {
+			isa = PBXGroup;
+			children = (
+				2B2B91E52218000700F98B35 /* InterstellarMerchant */,
+				2B2B91E42218000700F98B35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B2B91E42218000700F98B35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B91E32218000700F98B35 /* InterstellarMerchant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B2B91E52218000700F98B35 /* InterstellarMerchant */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B91E62218000700F98B35 /* AppDelegate.swift */,
+				2B7211752221FC5900325AA7 /* Controller */,
+				2B7211742221FC5100325AA7 /* View */,
+				2B7211732221FC4A00325AA7 /* Model */,
+				2B2B91ED2218000900F98B35 /* Assets.xcassets */,
+				2B2B91EF2218000900F98B35 /* LaunchScreen.storyboard */,
+				2B2B91F22218000900F98B35 /* Info.plist */,
+				2B33946D2240E39D00665103 /* Model.xcdatamodeld */,
+			);
+			path = InterstellarMerchant;
+			sourceTree = "<group>";
+		};
+		2B7211732221FC4A00325AA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B7211772221FCDB00325AA7 /* Universe */,
+				2B7211762221FCD400325AA7 /* Player */,
+				2B9C899E2227585400679FFC /* Location.swift */,
+				2B9C89A42227617900679FFC /* Item.swift */,
+				2B339467223E2FBD00665103 /* Trip.swift */,
+				2B339469223E391600665103 /* TravelController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B7211742221FC5100325AA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B91EA2218000700F98B35 /* Main.storyboard */,
+				2B4CC6E12229EEDD001A0E91 /* PlanetCell.swift */,
+				2BBF11AD2230666E005AA76F /* MarketTableViewCell.swift */,
+				2B339463223D113200665103 /* PlayerSellItemTableViewCell.swift */,
+				2BBFE6B122324D4900AE6C56 /* SolarSystemTableViewCell.swift */,
+				2BD7F4BD224B616C00197E78 /* PlayerInventoryTableViewCell.swift */,
+				2B165DD7224E1DEE00838E54 /* BuyShipCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B7211752221FC5900325AA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B91E82218000700F98B35 /* ViewController.swift */,
+				2B9C89982224AD9C00679FFC /* EnterDetailsViewController.swift */,
+				2B9C899A2224BCC800679FFC /* ConfirmDetailsViewController.swift */,
+				2B4CC6DF2229ED84001A0E91 /* SpaceViewController.swift */,
+				2BBF11AB22306375005AA76F /* PlanetViewController.swift */,
+				2BBFE6AF22324B6C00AE6C56 /* WarpViewController.swift */,
+				2B33946B223EED9300665103 /* ProfileViewController.swift */,
+				2B21CAE7224C6ECB0023348B /* GameTabBarController.swift */,
+				2B165DD5224E1BF500838E54 /* GalacticDepotViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B7211762221FCD400325AA7 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2B7D63B822299E26004393D6 /* Player.swift */,
+				2B72117B2221FDD700325AA7 /* ship */,
+				2B72117A2221FDCB00325AA7 /* game_config */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		2B7211772221FCDB00325AA7 /* Universe */ = {
+			isa = PBXGroup;
+			children = (
+				2B33949322410CEA00665103 /* GameController.swift */,
+				2B9C89A62228740100679FFC /* Universe.swift */,
+				2B9C89A82228752E00679FFC /* SolarSystem.swift */,
+				2B9C89932224A68600679FFC /* Planet.swift */,
+				2B234A7622290E70000F2F98 /* Economy.swift */,
+				2BBF11AF22307390005AA76F /* PlanetEconomy.swift */,
+				2B9C89A022275F8700679FFC /* Market.swift */,
+				2B234A7822291023000F2F98 /* MarketItem.swift */,
+				2B9C89A2222760D100679FFC /* Order.swift */,
+				2B234A7A2229169C000F2F98 /* Inventory.swift */,
+				2B9C89952224A87200679FFC /* Planet Attributes */,
+				2B9C899C2227553800679FFC /* TravelEntity.swift */,
+			);
+			path = Universe;
+			sourceTree = "<group>";
+		};
+		2B72117A2221FDCB00325AA7 /* game_config */ = {
+			isa = PBXGroup;
+			children = (
+				2B72117C2221FE0100325AA7 /* Difficulty.swift */,
+				2B72117E2221FE9700325AA7 /* GameConfig.swift */,
+			);
+			path = game_config;
+			sourceTree = "<group>";
+		};
+		2B72117B2221FDD700325AA7 /* ship */ = {
+			isa = PBXGroup;
+			children = (
+				2B7211802221FF3600325AA7 /* Ship.swift */,
+			);
+			path = ship;
+			sourceTree = "<group>";
+		};
+		2B9C89952224A87200679FFC /* Planet Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				2B9C89962224A88F00679FFC /* Planet Attributes.swift */,
+			);
+			path = "Planet Attributes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B2B91E22218000700F98B35 /* InterstellarMerchant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2B91F52218000900F98B35 /* Build configuration list for PBXNativeTarget "InterstellarMerchant" */;
+			buildPhases = (
+				2B2B91DF2218000700F98B35 /* Sources */,
+				2B2B91E02218000700F98B35 /* Frameworks */,
+				2B2B91E12218000700F98B35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterstellarMerchant;
+			productName = InterstellarMerchant;
+			productReference = 2B2B91E32218000700F98B35 /* InterstellarMerchant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B2B91DB2218000700F98B35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Prabir Vora";
+				TargetAttributes = {
+					2B2B91E22218000700F98B35 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B2B91DE2218000700F98B35 /* Build configuration list for PBXProject "InterstellarMerchant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B2B91DA2218000700F98B35;
+			productRefGroup = 2B2B91E42218000700F98B35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B2B91E22218000700F98B35 /* InterstellarMerchant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B2B91E12218000700F98B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2B91F12218000900F98B35 /* LaunchScreen.storyboard in Resources */,
+				2B2B91EE2218000900F98B35 /* Assets.xcassets in Resources */,
+				2B2B91EC2218000700F98B35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B2B91DF2218000700F98B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B339468223E2FBD00665103 /* Trip.swift in Sources */,
+				2B4CC6E02229ED84001A0E91 /* SpaceViewController.swift in Sources */,
+				2B165DD8224E1DEE00838E54 /* BuyShipCollectionViewCell.swift in Sources */,
+				2B2B91E92218000700F98B35 /* ViewController.swift in Sources */,
+				2B9C89A122275F8700679FFC /* Market.swift in Sources */,
+				2BBF11B022307390005AA76F /* PlanetEconomy.swift in Sources */,
+				2B7211812221FF3600325AA7 /* Ship.swift in Sources */,
+				2B33946C223EED9300665103 /* ProfileViewController.swift in Sources */,
+				2B9C899D2227553800679FFC /* TravelEntity.swift in Sources */,
+				2B234A7922291023000F2F98 /* MarketItem.swift in Sources */,
+				2B165DD6224E1BF500838E54 /* GalacticDepotViewController.swift in Sources */,
+				2B33946A223E391600665103 /* TravelController.swift in Sources */,
+				2BBFE6B222324D4900AE6C56 /* SolarSystemTableViewCell.swift in Sources */,
+				2B9C899B2224BCC800679FFC /* ConfirmDetailsViewController.swift in Sources */,
+				2B4CC6E22229EEDD001A0E91 /* PlanetCell.swift in Sources */,
+				2B72117F2221FE9700325AA7 /* GameConfig.swift in Sources */,
+				2B234A7722290E70000F2F98 /* Economy.swift in Sources */,
+				2B21CAE8224C6ECB0023348B /* GameTabBarController.swift in Sources */,
+				2B7D63B922299E26004393D6 /* Player.swift in Sources */,
+				2BBF11AE2230666E005AA76F /* MarketTableViewCell.swift in Sources */,
+				2B9C89A3222760D100679FFC /* Order.swift in Sources */,
+				2B9C89A92228752E00679FFC /* SolarSystem.swift in Sources */,
+				2B33946F2240E39D00665103 /* Model.xcdatamodeld in Sources */,
+				2B9C89942224A68600679FFC /* Planet.swift in Sources */,
+				2BD7F4BE224B616C00197E78 /* PlayerInventoryTableViewCell.swift in Sources */,
+				2B234A7B2229169C000F2F98 /* Inventory.swift in Sources */,
+				2B9C89972224A88F00679FFC /* Planet Attributes.swift in Sources */,
+				2BBFE6B022324B6C00AE6C56 /* WarpViewController.swift in Sources */,
+				2B33949422410CEA00665103 /* GameController.swift in Sources */,
+				2B9C89A72228740100679FFC /* Universe.swift in Sources */,
+				2B9C89A52227617900679FFC /* Item.swift in Sources */,
+				2B339464223D113200665103 /* PlayerSellItemTableViewCell.swift in Sources */,
+				2B72117D2221FE0100325AA7 /* Difficulty.swift in Sources */,
+				2BBF11AC22306375005AA76F /* PlanetViewController.swift in Sources */,
+				2B9C89992224AD9C00679FFC /* EnterDetailsViewController.swift in Sources */,
+				2B9C899F2227585400679FFC /* Location.swift in Sources */,
+				2B2B91E72218000700F98B35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B2B91EA2218000700F98B35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2B91EB2218000700F98B35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B2B91EF2218000900F98B35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2B91F02218000900F98B35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B2B91F32218000900F98B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B2B91F42218000900F98B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B2B91F62218000900F98B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InterstellarMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PV.InterstellarMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B2B91F72218000900F98B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InterstellarMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PV.InterstellarMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B2B91DE2218000700F98B35 /* Build configuration list for PBXProject "InterstellarMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2B91F32218000900F98B35 /* Debug */,
+				2B2B91F42218000900F98B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2B91F52218000900F98B35 /* Build configuration list for PBXNativeTarget "InterstellarMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2B91F62218000900F98B35 /* Debug */,
+				2B2B91F72218000900F98B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B33946D2240E39D00665103 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B33946E2240E39D00665103 /* Model.xcdatamodel */,
+			);
+			currentVersion = 2B33946E2240E39D00665103 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B2B91DB2218000700F98B35 /* Project object */;
+}
